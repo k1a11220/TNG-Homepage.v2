@@ -1,0 +1,8 @@
+{
+  "name": "TNG-Homepage.v2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/k1a11220/TNG-Homepage.v2.git",
+  "author": "Son Beomsoo <k1a11220@noreply.github.com>",
+  "license": "MIT"
+}
