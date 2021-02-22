@@ -1,11 +1,12 @@
 import React from "react"
 import { Link } from 'react-router-dom';
 import logo_black from "./media/logo-black.png"
-import "./Navigation.css"
+import "./Navigation.module.css"
 
 const Navigation = () => {
     return(
-        <div className="web">
+        <header>
+                    <div className="web">
         <div>
             <Link to="/Home">
                 <img className="small-logo" src={logo_black} alt="logo_black" />
@@ -20,6 +21,8 @@ const Navigation = () => {
             </ul>
         </div>
     </div>
+        </header>
+
     )
 }
 
